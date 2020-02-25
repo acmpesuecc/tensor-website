@@ -1,6 +1,6 @@
 # Tensor 1.0
 
-![](https://i.imgur.com/zguqOQM.png)
+<img src="https://i.imgur.com/zguqOQM.png" alt="drawing" width="200"/>
 
 
 ### Tensor is an annual 17 hour Datathon organized by Techwarts, Predict_This, Developer Student Club(Google DSC) and ACM PESU-ECC.
