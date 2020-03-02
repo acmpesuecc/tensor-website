@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="icon" href="assets/img/WhatsApp%20Image%202020-02-16%20at%201.34.35%20PM.png">
 </head>
 
 <body>
@@ -92,7 +93,7 @@
                     <div>
                         <h1>About Tensor</h1>
                         <p><br><p style="font-size: 22px;">Tensor  is an annual 17-hour Datathon organized by Techwarts_Predict_This, Developer Student Club (DSC) and ACM PESU-ECC Student Chapter. It is the first iteration of its kind that will be held in PES University EC Campus on 14th to 15th March from 5pm to 12pm.</p><p style="font-size: 22px;">A Datathon is a competition where you are challenged to work on a real-world business case from different areas of Machine Learning, AI, and Data Science. All the selected teams will be provided with a dataset and respective problem statements to be solved.The teams based on their performance will be filtered in various rounds. The participants have the freedom to work on the language and tools of their choice for cleaning, visualising and building the Machine Learning model.</p></p>
-                        <br><br><p><a target="_blank" style="text-decoration: none" href="https://drive.google.com/open?id=1L4aYw5eBuU2APXwOAyCE4i6Dgoflgy0m"><button type="button" class="btn btn-light">BROCHURE</button></a></p>
+                        <br><br><!-- <p><a target="_blank" style="text-decoration: none" href="https://drive.google.com/open?id=1L4aYw5eBuU2APXwOAyCE4i6Dgoflgy0m"><button type="button" class="btn btn-light">BROCHURE</button></a></p></!-->
                     </div>
                 </div>
             </div>
@@ -345,11 +346,11 @@
                         <div>
                             <h1 class="mb-0" id="grayfont">Contact Us</h1>
                             <p style="font-size: 32px;">
-                                <form action="/action_page.php">
-                                    <input id="dark" type="text" id="fname" name="firstname" placeholder="Name">
-                                    <input id="dark" type="text" id="lname" name="lastname" placeholder="Email">
+                                <form id = "cont">
+                                    <input id="dark" type="text" id="u_name" name="name" placeholder="Name">
+                                    <input id="dark" type="text" id="u_email" name="email" placeholder="Email">
                                     <textarea id="dark" id="subject" name="subject" placeholder="Subject" style="height:170px"></textarea><br>
-                                    <input type="submit" value="Send">
+                                    <input type="submit" value="Send" onclick="send_info()">
                                 </form>
                             </p>
                         </div>
@@ -388,9 +389,11 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js" crossorigin="anonymous"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js" crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js" crossorigin="anonymous"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-storage.js" crossorigin="anonymous"></script>
+    <script src="assets/js/database.js"></script>
+    
 </body>
 
 </html>

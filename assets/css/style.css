@@ -4,3 +4,32 @@
       display: none;
     }
   }
+
+@media only screen and (min-width: 800px) {
+  #accordion-1{
+    width: 780px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #accordion-1{
+    width: 1200px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #accordion-1{
+    width: 980px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #accordion-1{
+    width: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  #accordion-1{
+    width: 1300px;
+  }
+}
