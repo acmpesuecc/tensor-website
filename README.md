@@ -11,6 +11,6 @@ This is the first iteration of its kind, that will be held in PES University, EC
 - Open to all students of all branches
 - Team size: **2-3 students**
 
-### Prizes worth 40k
+### Prizes worth 25k
 
 Website built, maintained and deployed by ACM PESU ECC.
