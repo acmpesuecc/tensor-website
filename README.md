@@ -14,3 +14,6 @@ This is the first iteration of its kind, that will be held in PES University, EC
 ### Prizes worth 25k
 
 Website built, maintained and deployed by ACM PESU ECC.
+
+### Event conducted succesfully!
+Check out our website for upcoming events -> <https://pesuecc.acm.org/> 
